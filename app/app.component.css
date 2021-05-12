@@ -1,0 +1,40 @@
+.table1 {
+  border: 1px solid #000000;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table2 {
+  border: 1px solid #0e0c0b;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+tr:nth-child(n + 2) {
+  border: 2px solid #747475;
+  border-collapse: seperate;
+  width: 50%;
+  border-spacing: 15px;
+}
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+.main {
+  height: 100%;
+  width: 860px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(236, 235, 235);
+  overflow-x: hidden;
+}
+.sidenav {
+  height: 100%;
+  margin-left: 864px; /* Same as the width of the sidenav */
+}
+.tr-sidebar {
+  border: 0;
+}
